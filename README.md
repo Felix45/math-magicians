@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Todo list
+# Math Magician
 
 > Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to, make simple calculations and read a random math-related quote.
 
@@ -46,8 +46,10 @@ Start the http application server
   $ npm start
 ```
 
-### Deployment
-- [Visit Application Homepage](http://localhost:3000)
+### Visit Application
+```
+  $ http://localhost:3000
+```
 
 
 ### Authors
