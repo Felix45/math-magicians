@@ -2,17 +2,17 @@
 
 # Todo list
 
-> This is a simple web app that allows users of the application to add and remove tasks they plan to do during the day.
+> Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to, make simple calculations and read a random math-related quote.
 
 ## Built With
 
-- HTML
+- React JS
 - CSS
 - JavaScript
 
 ## Live Demo
 
-[Live Demo Link](https://felix45.github.io/todo-list/)
+[Live Demo Link](https://felix45.github.io/math-magicians/)
 
 ## Getting Started
 
@@ -25,12 +25,12 @@ To get a local copy up and running follow these simple example steps.
 
 ```
 ### Setup
-Clone the repository and change the directory to webpack-boilerplate
+Clone the repository and change the directory to math-magicians
 
 ``` 
-  $ git clone git@github.com:Felix45/todo-list.git
+  $ git clone git@github.com:Felix45/math-magicians.git
 
-  $ cd todo-list
+  $ cd math-magicians
 
 ```
 
@@ -47,7 +47,7 @@ Start the http application server
 ```
 
 ### Deployment
-- [Visit Application Homepage](http://localhost:9000)
+- [Visit Application Homepage](http://localhost:3000)
 
 
 ### Authors
@@ -61,7 +61,7 @@ Start the http application server
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Felix45/todo-list/issues).
+Feel free to check the [issues page](https://github.com/Felix45/math-magicians/issues).
 
 ## Show your support
 
