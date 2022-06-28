@@ -9,7 +9,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container flex-column">
+      <div className="container">
         <Calculator />
       </div>
     );

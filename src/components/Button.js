@@ -8,8 +8,9 @@ class Button extends React.Component {
   }
 
   render() {
+    const { text } = this.props;
     return (
-      <span className="btn">{ this.props.text }</span>
+      <span className="btn">{ text }</span>
     );
   }
 }

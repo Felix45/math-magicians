@@ -21,7 +21,7 @@ class Calculator extends React.Component {
       <div className="d-flex flex-column calculator">
         <Result />
         <div className="d-flex calculator-btns">
-          {buttons.map((text) => <Button key={0} text={text} />)}
+          {buttons.map((text) => <Button key={text.toString()} text={text} />)}
         </div>
       </div>
     );
