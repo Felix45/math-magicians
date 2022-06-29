@@ -6,11 +6,7 @@ import calculate from '../logic/calculator';
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      total: 0,
-      next: '',
-      operation: '',
-    };
+    this.state = { total: '', next: '', operation: '' };
 
     this.handleCalc = this.handleCalc.bind(this);
   }

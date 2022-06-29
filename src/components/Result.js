@@ -17,15 +17,10 @@ class Result extends React.Component {
     );
   }
 }
-
-Result.defaultProps = {
-  total: 0,
-  next: '',
-  operation: '',
-};
+Result.defaultProps = { total: '', next: '', operation: '' };
 
 Result.propTypes = {
-  total: PropTypes.number,
+  total: PropTypes.string,
   next: PropTypes.string,
   operation: PropTypes.string,
 };
