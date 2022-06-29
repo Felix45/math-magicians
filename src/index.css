@@ -53,12 +53,12 @@
   background-color: var(--gray);
 }
 
-.calculator-btns span:nth-of-type(4n),
-.calculator-btns span:last-child {
+.calculator-btns button:nth-of-type(4n),
+.calculator-btns button:last-child {
   border-left: none;
   background-color: var(--orange);
 }
 
-.calculator-btns span:nth-child(17) {
+.calculator-btns button:nth-child(17) {
   flex-grow: 2;
 }
