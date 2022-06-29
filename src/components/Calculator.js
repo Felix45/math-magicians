@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from './Button';
 import Result from './Result';
+import calculate from '../logic/calculator';
+import operate from '../logic/operate';
 
 class Calculator extends React.Component {
   constructor(props) {
