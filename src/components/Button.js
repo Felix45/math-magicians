@@ -8,15 +8,16 @@ class Button extends React.Component {
   }
 
   render() {
-    const { text } = this.props;
+    const { text, handleCalc } = this.props;
     return (
-      <span className="btn">{ text }</span>
+      <button className="btn" type="button" onClick={handleCalc}>{ text }</button>
     );
   }
 }
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
+  handleCalc: PropTypes.func.isRequired,
 };
 
 export default Button;
