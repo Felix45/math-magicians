@@ -36,7 +36,7 @@
 }
 
 .container {
-  width: 400px;
+  width: 90%;
   margin-top: 10%;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .btn {
-  width: 100px;
+  width: 25%;
   padding: 20px;
   cursor: pointer;
   text-align: center;
@@ -61,4 +61,10 @@
 
 .calculator-btns button:nth-child(17) {
   flex-grow: 2;
+}
+
+@media screen and(min-width: 767px) {
+  .container {
+    width: 50%;
+  }
 }
