@@ -12,9 +12,8 @@ class Quote extends React.Component {
     fetch('https://type.fit/api/quotes')
       .then((response) => response.json())
       .then((data) => {
-        const quoteNumber = Math.floor(Math.random() * data.length);
         this.setState({
-          todaysQuote: data[quoteNumber],
+          todaysQuote: data[Math.floor(Math.random() * data.length)],
         });
       });
   }
