@@ -72,6 +72,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to [Microverse](https://bit.ly/MicroverseTN) for giving me this project to work on
+- Hat tip to [FreeCode Camp](https://type.fit/api/quotes) for the quotes API used in this project
 
 
 ## 📝 License
