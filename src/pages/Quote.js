@@ -4,10 +4,7 @@ class Quote extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      todaysQuote: {
-        text: 'In seed time learn, in harvest teach, in winter enjoy.',
-        author: 'Unknown',
-      },
+      todaysQuote: '',
     };
   }
 
@@ -24,19 +21,10 @@ class Quote extends React.Component {
   render() {
     const { todaysQuote } = this.state;
     return (
-      <div className="container d-flex flex-column flex-center">
-        <blockquote className="p-1">
-          <p>
-            {todaysQuote.text}
-            {' '}
-            ---
-            {' '}
-            {todaysQuote.author}
-            {' '}
-          </p>
-        </blockquote>
-      </div>
-
+      <blockquote>
+        <p>{todaysQuote.text}</p>
+        <p>{todaysQuote.author}</p>
+      </blockquote>
     );
   }
 }

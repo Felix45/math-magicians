@@ -8,11 +8,11 @@ const NavBar = () => {
     { id: 3, text: 'Quote', url: '/quote' },
   ];
   return (
-    <nav className="d-flex space-between navbar">
+    <nav className="navbar">
       <header>
-        <h1 className="title">Math Magician</h1>
+        <h1>Math Magician</h1>
       </header>
-      <ul className="d-flex">
+      <ul>
         {
           urls.map((url) => (
             <li

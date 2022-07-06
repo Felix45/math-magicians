@@ -1,50 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-}
-
-ol,
-ul {
-  list-style-type: none;
 }
 
 :root {
-  --dodgerblue: dodgerblue;
   --white: #fff;
   --gray: #fafafa;
   --darkgray: #ddd;
   --bgdark: #858693;
   --orange: #f39148;
-}
-
-p {
-  text-align: justify;
-}
-
-.title {
-  font: bold 25px 'Architects Daughter', cursive;
-}
-
-nav {
-  width: 100%;
-  padding: 10px 2em;
-  font-weight: bold;
-  border-bottom: 1px solid var(--darkgray);
-  box-shadow: 5px 5px 5px var(--darkgray);
-}
-
-nav li a {
-  padding: 0 20px;
-  color: var(--dodgerblue);
-  border-right: 2px solid var(--dodgerblue);
-}
-
-nav li:last-child a {
-  border: none;
 }
 
 .bg-dark {
@@ -70,21 +35,13 @@ nav li:last-child a {
   justify-content: flex-end;
 }
 
-.space-between {
-  justify-content: space-between;
-}
-
 .container {
-  width: 100%;
-  padding: 5% 2em;
+  width: 90%;
+  margin-top: 10%;
 }
 
 .p-1 {
   padding: 1rem;
-}
-
-.m-2 {
-  margin-bottom: 2rem;
 }
 
 .btn {
@@ -106,9 +63,8 @@ nav li:last-child a {
   flex-grow: 2;
 }
 
-blockquote {
-  line-height: 1.5em;
-  font-size: 20px;
-  background-color: var(--darkgray);
-  border-left: 5px solid var(--orange);
+@media screen and (min-width: 767px) {
+  .container {
+    width: 50%;
+  }
 }
