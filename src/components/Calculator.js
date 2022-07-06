@@ -14,16 +14,19 @@ const Calculator = () => {
   };
 
   return (
-    <div className="d-flex flex-column calculator">
-      <Result total={total} next={next} operation={operation} />
-      <div className="d-flex calculator-btns">
-        {
+    <div className="container">
+      <div className="d-flex flex-column calculator">
+        <Result total={total} next={next} operation={operation} />
+        <div className="d-flex calculator-btns">
+          {
           buttons.map((text) => (
             <Button key={text.toString()} text={text} handleCalc={handleCalc} />
           ))
         }
+        </div>
       </div>
     </div>
+
   );
 };
 
