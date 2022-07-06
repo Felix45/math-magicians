@@ -14,7 +14,8 @@ const Calculator = () => {
   };
 
   return (
-    <div className="container">
+    <section className="container d-flex space-between">
+      <h1 className="title">Let&apos;s do some math!</h1>
       <div className="d-flex flex-column calculator">
         <Result total={total} next={next} operation={operation} />
         <div className="d-flex calculator-btns">
@@ -25,7 +26,7 @@ const Calculator = () => {
         }
         </div>
       </div>
-    </div>
+    </section>
 
   );
 };
