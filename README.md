@@ -11,8 +11,9 @@
 - JavaScript
 
 ## Live Demo
-
-[Live Demo Link](https://magicianmath.herokuapp.com/)
+| Heroku hosting | Netlify hosting |
+|--------|---------|
+|[Heroku demo link](https://magicianmath.herokuapp.com/) |[Netlify demo link](https://luxury-douhua-5f5d5f.netlify.app/)|
 
 ## Getting Started
 
