@@ -41,5 +41,5 @@ describe('Tests on calculator.js calculate function', () => {
   test('Test % button on calculator', () => {
     const result = calculate({ total: null, next: '1200', operation: null }, '%');
     expect(result).toStrictEqual({ total: '1200', next: null, operation: '%' });
-  }); 
+  });
 });
