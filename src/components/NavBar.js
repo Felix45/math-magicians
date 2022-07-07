@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   const urls = [
-    { id: 1, text: 'Home', url: '/math-magicians' },
+    { id: 1, text: 'Home', url: '/' },
     { id: 2, text: 'Calculator', url: '/calculator' },
     { id: 3, text: 'Quote', url: '/quote' },
   ];
